@@ -1,0 +1,45 @@
+{
+  "itemName" : "gordfreemcrober",
+  "price" : 1000,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "great scot, gord freem kill the allen with crober",
+  "shortdescription" : "gord freems crober",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
+
+  "inventoryIcon" : "crober.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "crober.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 15
+  },
+
+  "altAbilityType" : "superspinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+    "inventoryIcon" : "crober_l6.png",
+    "animationParts" : {
+      "blade" : "",
+      "handle" : "crober_l6.png"
+    },
+    "shortdescription" : "gord freems crober ^yellow;^reset;"
+  }
+}
