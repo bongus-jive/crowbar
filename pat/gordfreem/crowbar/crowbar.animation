@@ -1,0 +1,53 @@
+{
+  "globalTagDefaults": {
+    "paletteSwaps": ""
+  },
+
+  "animatedParts": {
+    "parts": {
+      "crowbar": {
+        "properties": {
+          "image": "<partImage><paletteSwaps>",
+          "offset": [ 0, 0.5 ],
+          "transformationGroups": [ "weapon" ],
+          "collisionPoint": [ 0, 1.75 ],
+          "damageLine": [ [ 1.25, 2.0 ], [ 0, 0.25 ] ]
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "weapon": { }
+  },
+
+  "sounds": {
+    "swing": {
+      "pool": [ "sfx/cbar_miss1.ogg" ]
+    },
+    "hitMetal": {
+      "volume": 0.65,
+      "pool": [ "sfx/cbar_hit1.ogg", "sfx/cbar_hit2.ogg" ]
+    },
+    "hitMetalLight": {
+      "volume": 0.25,
+      "pool": [ "sfx/cbar_hit1.ogg", "sfx/cbar_hit2.ogg" ]
+    },
+    "hitMeat": {
+      "volume": 0.8,
+      "pool": [ "sfx/cbar_hitbod1.ogg", "sfx/cbar_hitbod2.ogg", "sfx/cbar_hitbod3.ogg" ]
+    },
+    "hitDirt": {
+      "volume": 0.8,
+      "pool": [ "sfx/pl_dirt1.ogg", "sfx/pl_dirt2.ogg", "sfx/pl_dirt3.ogg", "sfx/pl_dirt4.ogg" ]
+    },
+    "hitGlass": {
+      "volume": 0.8,
+      "pool": [ "sfx/glass1.ogg", "sfx/glass2.ogg", "sfx/glass3.ogg", "sfx/glass4.ogg" ]
+    },
+    "hitWood": {
+      "volume": 0.7,
+      "pool": [ "sfx/wood1.ogg", "sfx/wood2.ogg", "sfx/wood3.ogg" ]
+    }
+  }
+}

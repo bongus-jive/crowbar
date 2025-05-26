@@ -1,0 +1,215 @@
+{
+  "kind": "pat_crowbar",
+  "effects": {
+    "organic": {
+      "hit": {
+        "sounds": [
+          { "volume": 0.8, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" },
+          { "volume": 0.8, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" },
+          { "volume": 0.8, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }
+        ],
+        "particles": [
+          [
+            {
+              "type": "animated",
+              "animation": "/pat/gordfreem/crowbar/particles/bloodspray.animation",
+              "size": 0.25,
+              "timeToLive": 0.2,
+              "variance": {
+                "position": [ 0.1, 0.1 ],
+                "rotation": 180
+              }
+            },
+            {
+              "type": "animated",
+              "animation": "/pat/gordfreem/crowbar/particles/blood.animation",
+              "size": 0.2,
+              "timeToLive": 2,
+              "initialVelocity": [ 0, 8 ],
+              "finalVelocity": [ 0, -20 ],
+              "approach": [ 0, 50 ],
+              "variance": {
+                "position": [ 0.8, 0.8 ],
+                "rotation": 180,
+                "size": 0.05,
+                "initialVelocity": [ 10, 4 ]
+              }
+            },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } },
+            { "type": "animated", "animation": "/pat/gordfreem/crowbar/particles/blood.animation", "size": 0.2, "timeToLive": 2, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.8, 0.8 ], "rotation": 180, "size": 0.05, "initialVelocity": [ 10, 4 ] } }
+          ]
+        ]
+      }
+    },
+
+    "robotic": {
+      "hit": {
+        "sounds": [
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark2.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark2.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark3.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark3.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark4.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark4.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark5.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark5.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark6.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/spark6.ogg" } ]
+        ],
+        "particles": [
+          [
+            {
+              "type": "textured",
+              "image": "/pat/gordfreem/crowbar/particles/richo.png",
+              "size": 0.5,
+              "destructionTime": 0.16,
+              "destructionAction": "fade",
+              "fullbright": true,
+              "variance": {
+                "position": [ 0.25, 0.25 ],
+                "rotation": 180
+              }
+            },
+            {
+              "type": "streak",
+              "color": "#fa47",
+              "size": 0.75,
+              "length": 2.5,
+              "destructionTime": 0.4,
+              "destructionAction": "shrink",
+              "fullbright": true,
+              "initialVelocity": [ 0, 8 ],
+              "finalVelocity": [ 0, -20 ],
+              "approach": [ 0, 50 ],
+              "variance": {
+                "position": [ 0.1, 0.1 ],
+                "initialVelocity": [ 10, 4 ],
+                "size": 0.15,
+                "length": 0.5,
+                "rotation": 180,
+                "timeToLive": 0.15
+              }
+            },
+            { "type": "streak", "color": "#fa47", "size": 0.75, "length": 2.5, "destructionTime": 0.4, "destructionAction": "shrink", "fullbright": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.1, 0.1 ], "initialVelocity": [ 10, 4 ], "size": 0.15, "length": 0.5, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "streak", "color": "#fa47", "size": 0.75, "length": 2.5, "destructionTime": 0.4, "destructionAction": "shrink", "fullbright": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.1, 0.1 ], "initialVelocity": [ 10, 4 ], "size": 0.15, "length": 0.5, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "streak", "color": "#fa47", "size": 0.75, "length": 2.5, "destructionTime": 0.4, "destructionAction": "shrink", "fullbright": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.1, 0.1 ], "initialVelocity": [ 10, 4 ], "size": 0.15, "length": 0.5, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "streak", "color": "#fa47", "size": 0.75, "length": 2.5, "destructionTime": 0.4, "destructionAction": "shrink", "fullbright": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.1, 0.1 ], "initialVelocity": [ 10, 4 ], "size": 0.15, "length": 0.5, "rotation": 180, "timeToLive": 0.15 } }
+          ]
+        ]
+      }
+    },
+
+    "stone": {
+      "hit": {
+        "sounds": [
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric1.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric2.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric2.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric2.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric3.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric3.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric3.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric4.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric4.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric4.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod1.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric5.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod2.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric5.ogg" } ],
+          [ { "volume": 0.4, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hitbod3.ogg" }, { "volume": 0.6, "resource": "/pat/gordfreem/crowbar/sfx/ric5.ogg" } ]
+        ],
+        "particles": [
+          [
+            {
+              "type": "textured",
+              "image": "/pat/gordfreem/crowbar/particles/richo.png",
+              "size": 0.75,
+              "destructionTime": 0.16,
+              "destructionAction": "fade",
+              "fullbright": true,
+              "variance": {
+                "position": [ 0.25, 0.25 ],
+                "rotation": 180
+              }
+            },
+            {
+              "type": "ember",
+              "color": "#9A9A9A",
+              "size": 1.5,
+              "length": 2.5,
+              "destructionTime": 1,
+              "destructionAction": "shrink",
+              "collidesForeground": true,
+              "initialVelocity": [ 0, 8 ],
+              "finalVelocity": [ 0, -20 ],
+              "approach": [ 0, 50 ],
+              "variance": {
+                "position": [ 0.4, 0.4 ],
+                "initialVelocity": [ 10, 4 ],
+                "size": 0.5,
+                "rotation": 180,
+                "timeToLive": 0.15
+              }
+            },
+            { "type": "ember", "color": "#9A9A9A", "size": 1.5, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.5, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#6C6C6C", "size": 1.5, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.5, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#6C6C6C", "size": 1.5, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.5, "rotation": 180, "timeToLive": 0.15 } }
+          ]
+        ]
+      }
+    },
+
+    "wooden": {
+      "hit": {
+        "sounds": [
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood1.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood2.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood1.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood2.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood1.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood2.ogg" } ],
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ]
+        ],
+        "particles": [
+          [
+            {
+              "type": "ember",
+              "color": "#A47844",
+              "size": 1.75,
+              "length": 2.5,
+              "destructionTime": 1,
+              "destructionAction": "shrink",
+              "collidesForeground": true,
+              "initialVelocity": [ 0, 8 ],
+              "finalVelocity": [ 0, -20 ],
+              "approach": [ 0, 50 ],
+              "variance": {
+                "position": [ 0.4, 0.4 ],
+                "initialVelocity": [ 10, 4 ],
+                "size": 0.75,
+                "rotation": 180,
+                "timeToLive": 0.15
+              }
+            },
+            { "type": "ember", "color": "#A47844", "size": 1.75, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.75, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#A47844", "size": 1.75, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.75, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#754C23", "size": 1.75, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.75, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#754C23", "size": 1.75, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.75, "rotation": 180, "timeToLive": 0.15 } },
+            { "type": "ember", "color": "#754C23", "size": 1.75, "length": 2.5, "destructionTime": 1, "destructionAction": "shrink", "collidesForeground": true, "initialVelocity": [ 0, 8 ], "finalVelocity": [ 0, -20 ], "approach": [ 0, 50 ], "variance": { "position": [ 0.4, 0.4 ], "initialVelocity": [ 10, 4 ], "size": 0.75, "rotation": 180, "timeToLive": 0.15 } }
+          ]
+        ]
+      }
+    }
+  }
+}

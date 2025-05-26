@@ -1,0 +1,7 @@
+{
+  "projectileName": "pat_crowbar_spark",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "speed": 0,
+  "onlyHitTerrain": true,
+  "actionOnReap": [ "spark" ]
+}

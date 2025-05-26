@@ -1,0 +1,104 @@
+{
+  "itemName": "pat_crowbar",
+  "shortdescription": "Crowbar",
+  "description": "gord freem kill allen with crober",
+  "rarity": "Legendary",
+  "category": "tool",
+  "tooltipKind": "base",
+  "price": 1000,
+  "maxStack": 1,
+  "level": 6,
+  "twoHanded": true,
+  "itemTags": [ "weapon", "melee" ],
+
+  "inventoryIcon": "icon.png",
+  "tooltipFields": {
+    "objectImage": [
+      { "image": "/pat/gordfreem/crowbar/crowbar.png?flipx", "rotation": 1.57079632679 }
+    ]
+  },
+
+  "animation": "crowbar.animation",
+  "animationParts": {
+    "crowbar": "crowbar.png"
+  },
+
+  "scripts": [ "crowbar.lua" ],
+
+  "primaryAbility": {
+    "scripts": [ "/pat/gordfreem/crowbar/swing.lua" ],
+    "class": "CrowbarSwing",
+
+    "swingTime": 0.11,
+    "raiseTime": 0.36,
+    "hitRaiseTime": 0.11,
+
+    "damageConfig": {
+      "baseDamage": 3,
+      "damageSourceKind": "pat_crowbar",
+      "timeout": 0.1
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": 45,
+        "weaponRotation": 10,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "swing": {
+        "armRotation": -50,
+        "weaponRotation": -50,
+        "weaponOffset": [ 0, 0.1 ],
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    },
+
+    "sparkProjectile": "pat_crowbar_spark",
+
+    "defaultMaterial": "metal",
+    "footstepMaterials": {
+      "/sfx/blocks/footstep_ash.ogg": "dirt",
+      "/sfx/blocks/footstep_bone.ogg": "meat",
+      "/sfx/blocks/footstep_brains.ogg": "meat",
+      "/sfx/blocks/footstep_composite.ogg": null,
+      "/sfx/blocks/footstep_crystal.ogg": "glass",
+      "/sfx/blocks/footstep_dirt.ogg": "dirt",
+      "/sfx/blocks/footstep_drydirt.ogg": "dirt",
+      "/sfx/blocks/footstep_girder.ogg": null,
+      "/sfx/blocks/footstep_glass.ogg": "glass",
+      "/sfx/blocks/footstep_grass.ogg": "dirt",
+      "/sfx/blocks/footstep_gravel.ogg": "dirt",
+      "/sfx/blocks/footstep_ice.ogg": "glass",
+      "/sfx/blocks/footstep_lightmetal.ogg": null,
+      "/sfx/blocks/footstep_lightwood.ogg": "wood",
+      "/sfx/blocks/footstep_metallic.ogg": null,
+      "/sfx/blocks/footstep_mud.ogg": "meat",
+      "/sfx/blocks/footstep_rock.ogg": null,
+      "/sfx/blocks/footstep_rooftile.ogg": "wood",
+      "/sfx/blocks/footstep_sand.ogg": "dirt",
+      "/sfx/blocks/footstep_sand2.ogg": "dirt",
+      "/sfx/blocks/footstep_slush.ogg": "dirt",
+      "/sfx/blocks/footstep_snow.ogg": "dirt",
+      "/sfx/blocks/footstep_stone.ogg": null,
+      "/sfx/blocks/footstep_stone2.ogg": null,
+      "/sfx/blocks/footstep_stone3.ogg": null,
+      "/sfx/blocks/footstep_tallgrass.ogg": "dirt",
+      "/sfx/blocks/footstep_treasure.ogg": "glass",
+      "/sfx/blocks/footstep_wetclay.ogg": "dirt",
+      "/sfx/blocks/footstep_wood.ogg": "wood"
+    },
+    "miningMaterials": {
+      "/sfx/tools/pickaxe_ore.ogg": "metal",
+      "/sfx/tools/pickaxe_ore2.ogg": "metal"
+    },
+    "materialSounds": {
+      "metal": [ "hitMetal" ],
+      "meat": [ "hitMeat" ],
+      "dirt": [ "hitDirt", "hitMetalLight" ],
+      "glass": [ "hitGlass", "hitMetalLight" ],
+      "wood": [ "hitWood", "hitMetalLight" ]
+    }
+  }
+}
