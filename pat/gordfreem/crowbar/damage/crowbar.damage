@@ -176,10 +176,7 @@
           [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit1.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ],
           [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood1.ogg" } ],
           [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood2.ogg" } ],
-          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ],
-          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood1.ogg" } ],
-          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood2.ogg" } ],
-          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit3.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ]
+          [ { "volume": 0.3, "resource": "/pat/gordfreem/crowbar/sfx/cbar_hit2.ogg" }, { "volume": 0.7, "resource": "/pat/gordfreem/crowbar/sfx/wood3.ogg" } ]
         ],
         "particles": [
           [
